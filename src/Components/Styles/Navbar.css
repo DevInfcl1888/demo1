@@ -1,0 +1,52 @@
+.height_image{
+    height: 60px;
+}
+.orange-bold-text {
+    color: #FF9900;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    border-bottom: 2px solid #FF9900; /* Bottom line in same orange */
+    padding-bottom: 2px;              /* Small spacing above the line */
+  }
+  
+  .text-11 {
+    color: #333333;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+  }
+  .icon2 {
+    background-color: #FF9900;     /* Bright yellow */
+    border-radius: 50%;            /* Makes it a circle */
+    padding: 8px;                  /* Adjust size */
+    display: inline-flex;          /* Center the icon */
+    align-items: center;
+    justify-content: center;
+    width: 32px;                   /* Fixed width/height for circle */
+    height: 32px;
+    color: #333;                   /* Optional: icon color */
+  }
+  .input-with-icon {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    
+  }
+  
+  .input-with-icon input {
+    border: none;
+    background: transparent;
+    outline: none;
+    
+    padding-left: 5px;
+    font-size: 14px;
+  }
+  
+  .search-icon {
+    color: #555;
+    font-size: 16px;
+    margin-left: 5px;
+  }
+  
